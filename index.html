@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<title>Day 18 - Romin</title>
+
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/all.min.css">
+		<link rel="stylesheet" href="css/fontawesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<br>
+		<br>
+
+	<div class="container">
+		<button type="button" class="btn btn-info" data-toggle="modal" data-target="#romin">Compose</button>
+		<div class="modal" id="romin">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header pr-4">
+						<h4 class="modal-title text-white">New Message</h4>
+						<div class="close-icon">
+							<button type="button" class="close" data-dismiss="modal"><i class="fas fa-times"></i></button>
+							<button class="close"><i class="fas fa-compress-alt"></i></button>	
+							<button class="close"><i class="fas fa-window-minimize"></i></button>	
+						</div>
+					</div> <!-- modal header end -->
+
+					<div class="modal-body">
+						<div class="sent-mail"> <!-- header start -->
+							<div class="container">
+								<div class="row">
+									<div class="col-12">
+										<div class="to-cc-bcc-area position-relative">
+											<div class="to-text position-relative">
+												<input class="form-control border-top-0 border-left-0 border-right-0" type="email" placeholder="To">
+											</div>
+											<div class="cc-bcc p-2 position-absolute" style="right: 0; top: 0;">
+												<a href="#">Cc</a>
+												<a href="#">Bcc</a>
+											</div>
+										</div>
+									</div>
+								</div>
+								</div> <!-- container end -->
+								<div class="container">
+									<div class="row">
+										<div class="col-12">
+											<div class="to-text">
+												<input class="form-control border-top-0 border-left-0 border-right-0" type="text" placeholder="Subject">
+											</div>
+										</div>
+									</div>
+									</div> <!-- container end -->
+									<div class="container">
+										<div class="row">
+											<div class="col-12">
+												<div class="textarea pt-1">
+													<textarea class="form-control border-0" name="textarea" id="" cols="30" rows="13"></textarea>
+												</div>
+											</div>
+										</div>
+										</div> <!-- container end -->
+
+										<div class="container">
+											<div class="row">
+												<div class="col-12">
+													<div class="icon-list-area bg-white p-1">
+														<ul class="list-unstyled ml-2 mb-0">
+															<li class="list-inline-item"><a href="#"><i class="fas fa-undo"></i></a></li>
+															<li class="list-inline-item"><a href="#"><i class="fas fa-redo"></i></a></li>
+															<li class="list-inline-item dropup"><a href="#" class="dropdown-toggle text-decoration-none" data-toggle="dropdown">Sans Serif</a>
+																<div class="dropdown-menu">
+																	<a href="#" class="dropdown-item">Sans Serif</a>
+																	<a href="#" class="dropdown-item">Serif</a>
+																	<a href="#" class="dropdown-item">Fixed Width</a>
+																	<a href="#" class="dropdown-item font-weight-bold">Wide</a>
+																	<a href="#" class="dropdown-item">Narrow</a>
+																	<a href="#" class="dropdown-item">Comic Sans MS</a>
+																	<a href="#" class="dropdown-item">Gargmond</a>
+																	<a href="#" class="dropdown-item">Georgia</a>
+																	<a href="#" class="dropdown-item">Tahoma</a>
+																	<a href="#" class="dropdown-item">Trebuhet MS</a>
+																	<a href="#" class="dropdown-item">Verdana</a>
+																</div>
+															</li>
+															<li class="list-inline-item dropup"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-text-height"></i></a>
+																<div class="dropdown-menu">
+																	<a href="#" class="dropdown-item btn-sm">Small</a>
+																	<a href="#" class="dropdown-item">Normal</a>
+																	<a href="#" class="dropdown-item btn-md">Large</a>
+																	<a href="#" class="dropdown-item btn-lg">Huge</a>
+																</div>
+															</li>
+															<li class="list-inline-item"><a href="#"><i class="fas fa-bold"></i></a></li>
+															<li class="list-inline-item"><a href="#"><i class="fas fa-italic"></i></a></li>
+															<li class="list-inline-item"><a href="#"><i class="fas fa-underline"></i></a></li>
+															<li class="list-inline-item dropup"><a href="#" class="text-decoration-none dropdown-toggle" data-toggle="dropdown"><i class="fas fa-font"></i></a>
+																<div class="dropdown-menu">
+																	<a href="#" class="dropdown-item"><input type="color"></a>
+																</div>
+															</li>
+															<li class="list-inline-item dropup"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-align-left"></i></a>
+															<div class="dropdown-menu">
+																<a href="#" class="dropdown-item"><i class="fas fa-align-left"></i></a>
+																<a href="#" class="dropdown-item"><i class="fas fa-align-center"></i></a>
+																<a href="#" class="dropdown-item"><i class="fas fa-align-right"></i></a>
+															</div>
+														</li>
+														<li class="list-inline-item"><a href="#"><i class="fas fa-list-ol"></i></a></li>
+														<li class="list-inline-item"><a href="#"><i class="fas fa-list-ul"></i></a></li>
+														<li class="list-inline-item"><a href="#"><i class="fas fa-outdent"></i></a></li>
+														<li class="list-inline-item"><a href="#"><i class="fas fa-indent"></i></a></li>
+														<li class="list-inline-item"><a href="#"><i class="fas fa-quote-right"></i></a></li>
+														<li class="list-inline-item"><a href="#"><i class="fas fa-strikethrough"></i></a></li>
+														<li class="list-inline-item"><a href="#"><i class="fas fa-remove-format"></i></a></li>
+													</ul>
+												</div> <!-- list icon  end -->
+											</div>
+										</div>
+									</div> <!-- container end -->
+
+								<div class="container">
+									<div class="row">
+										<div class="col-12">
+											<div class="send-area position-relative">
+												<div class="icon-list bg-white p-1">
+													<ul class="list-unstyled mb-0">
+														<li class="list-inline-item dropup"><a href="#" class="dropdown-toggle text-decoration-none text-white bg-primary pt-1 pb-1 pl-3 pr-3" data-toggle="dropdown">Send </a>
+														<div class="dropdown-menu">
+															<a href="#" class="dropdown-item btn-sm"><i class="fas fa-share"></i> Sehedule send</a>
+														</div>
+													</li>
+													<li class="list-inline-item"><a href="#"><i class="fas fa-font"></i></a></li>
+													<li class="upload list-inline-item">
+														<a href="#">
+															<label for="input-file"><i class="fas fa-paperclip"></i></label>
+															<input type="file" name="input-file" id="input-file">
+														</a>
+													</li>
+													<li class="list-inline-item"><a href="#"><i class="fas fa-link"></i></a></li>
+													<li class="list-inline-item"><a href="#"><i class="fas fa-grin"></i></a></li>
+													<li class="upload list-inline-item">
+														<a href="#">
+															<label for="input-file"><i class="fab fa-google-drive"></i></label>
+															<input type="file" name="input-file" id="input-file">
+														</a>
+													</li>
+													<li class="upload list-inline-item">
+														<a href="#">
+															<label for="input-file"><i class="fas fa-image"></i></label>
+															<input type="file" name="input-file" id="input-file">
+														</a>
+													</li>
+													<li class="list-inline-item"><a href="#"><i class="fas fa-business-time"></i></a></li>
+													<li class="list-inline-item"><a href="#"><i class="fas fa-file-signature"></i></a></li>
+													<li class="list-inline-item"><a class="text-primary" href="#"><i class="fab fa-dropbox"></i></a></li>
+												</ul>
+											</div>
+											<div class="icon-list bg-white p-1 position-absolute" style="right: 10px; top: 0;">
+												<ul class="list-unstyled ml-3 mb-0">
+													<li class="list-inline-item"><a href="#"><i class="fas fa-ellipsis-v"></i></a></li>
+													<li class="list-inline-item"><a href="#"><i class="fas fa-trash"></i></a></li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+								</div> <!-- container end -->
+								</div> <!-- Sent Mail End -->
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> <!-- container end -->
+			
+			
+			<script src="js/jquery-3.5.1.slim.min.js"></script>
+			<script src="js/popper.min.js"></script>
+			<script src="js/bootstrap.min.js"></script>
+		</body>
+	</html>

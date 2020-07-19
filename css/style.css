@@ -1,0 +1,80 @@
+
+.form-control {
+    border-radius: 0;
+}
+label {
+    cursor: pointer;
+}
+.upload a > input {
+    display: none;
+}
+.dropdown-item:focus, 
+.dropdown-item:hover {
+    background-color: #e5e8ea;
+}
+.dropdown-item {
+    padding: 4px 10px;
+}
+.dropdown-menu {
+    min-width: min-content;
+}
+
+h4 {
+	font-size: 16px;
+}
+.close {
+    font-size: 16px;
+    line-height: 24px;
+    color: #ddd;
+    text-shadow: none;
+    opacity: .5;
+}
+.close:hover {
+    color: #fff;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+.icon-list-area a,
+.icon-list a,
+.cc-bcc a {
+    color: #6c757d;
+}
+
+.modal-body {
+    padding: 0;
+}
+.modal-header {
+    background-color: #404040 !important;
+    padding-left: 16px;
+}
+
+.icon-list-area {
+    box-shadow: 2px 3px 8px -1px rgba(0, 0, 0, .5);
+    width: 76%;
+    margin-bottom: 20px;
+}
+.icon-list-area li,
+.icon-list li {
+    padding: 5px 0;
+    margin-right: 0 !important;
+}
+.icon-list-area li a,
+.icon-list li a {
+    padding: 5px 8px;
+}
+
+.icon-list-area li a:hover,
+.icon-list li a:hover {
+    background-color: #f2f2f2;
+}
+.icon-list {
+    margin-bottom: 5px;
+}
+.form-control {
+	padding: 0;
+}
+@media (min-width: 576px) {
+.modal-dialog {
+    max-width: 70%;
+}
